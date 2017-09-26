@@ -1,0 +1,15 @@
+#for-me{
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+}
+
+#for-me:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+#for-me:active{
+    color: lightblue;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Rfif Ctu</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" [class.active]="viewMode === 'home'">
+            <a class="nav-link pointer" (click)="setViewMode('home')">Trang Chủ</a>
+          </li>
+          <li class="nav-item" [class.active]="viewMode === 'event'">
+            <a class="nav-link pointer" (click)="setViewMode('event')">Sự kiện</a>
+          </li>
+          <li class="nav-item" [class.active]="viewMode === 'list'">
+            <a class="nav-link pointer" (click)="setViewMode('list')">Danh sách</a>
+            <li class="nav-item">
+              <a class="nav-link" id="btn-login" (click)="toggleLogin()">Đăng nhập</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

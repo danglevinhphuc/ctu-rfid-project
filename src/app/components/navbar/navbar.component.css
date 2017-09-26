@@ -1,0 +1,11 @@
+#btn-login{
+    cursor: pointer;
+}
+
+#btn-login:active{
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}

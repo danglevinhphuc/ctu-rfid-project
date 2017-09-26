@@ -1,14 +1,27 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>RfidCtuApp</title>
+  <title>Rfid Ctu App</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
-  <app-root></app-root>
+
+<body style="overflow-y: scroll;">
+  <div app-root>
+    <div id="preloader">
+      <h1 style="color: white; top: 40%; left: 50%; position: fixed; transform: translate(-50%,-50%);">Welcome!</h1>
+      <div style="top: 50%; left: 50%; position: fixed;">
+        <div class="loader-inner ball-scale-multiple" style="position: fixed;">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
