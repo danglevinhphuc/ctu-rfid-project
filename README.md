@@ -1,3 +1,7 @@
+Cài Module:
+
+$> npm install
+
 Cài nodemon global:
 
 $> npm i -g nodemon
