@@ -3,7 +3,7 @@ let canBo = require("../models/canbo");
 let mongojs = require("mongojs");
 let database = require("../../config");
 
-/**** KHAI BAO ROUTER() **/
+/**** KHAI BAO ROUTER()123 **/
 let router = express.Router();
 
 /*** KET NOI DATABASE MLAB ONLINE **/
